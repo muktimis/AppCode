@@ -14,9 +14,3 @@ FROM nginx:latest AS deployer
 
 COPY --from=installer /app/build /usr/share/nginx/html
 
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 3b8ab5b6524127bfa4cdfa47fdc4a9d784c3cc5a
